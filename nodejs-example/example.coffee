@@ -3,7 +3,7 @@ class Attendee
 
 addAttendee = (name) ->
   attendee = new Attendee(name)
-  document.getElementById('attendee-list').innerHTML += "<li>#{attende.name}</li>"
+  document.getElementById('attendee-list').innerHTML += "<li>#{attendee.name}</li>"
 
 document.getElementById('add-attendee-form').addEventListener 'submit', (evt) ->
   evt.preventDefault()
