@@ -1,4 +1,4 @@
 .DS_STORE
-nodejs/node_modules
+node_modules
 .idea
 

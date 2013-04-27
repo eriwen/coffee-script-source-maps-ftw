@@ -10,7 +10,7 @@ npm install coffee-script -g
 ```
 
 ```
-cd nodejs
+cd nodejs-example
 npm install
 node server.js
 ```
@@ -22,7 +22,7 @@ node server.js
 * `gem install bundler`
 
 ```
-cd rails
+cd rails-example
 bundle install
 rails s
 ```
