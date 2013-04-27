@@ -6,7 +6,7 @@
 
   express = require('express');
 
-  express().use(express["static"](__dirname)).listen(zzz);
+  express().use(express["static"](__dirname)).listen(4000);
 
 }).call(this);
 
