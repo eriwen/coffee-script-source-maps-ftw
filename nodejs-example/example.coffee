@@ -8,6 +8,6 @@ addAttendee = (name) ->
 document.getElementById('add-attendee-form').addEventListener 'submit', (evt) ->
   evt.preventDefault()
   addAttendee(evt.target.name.value)
-  evt.target.reset()
+  evt.targ.reset()
 
 addAttendee(name) for name in ['Mike', 'Clint', 'Wil']
